@@ -22,7 +22,7 @@ const List = () => {
 export default List
 
 const Wrapper = styled.div`
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;

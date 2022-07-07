@@ -8,20 +8,15 @@ Variables
 ===============
 */
 :root {
- /* darkest grey - used for headings */
-  --clr-grey-1: hsl(201, 35%, 9%);
-  --clr-grey-3: hsl(203, 35%, 10%);
-  --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: #d7dadb;
-  --clr-grey-10: hsl(210, 36%, 96%);
+ 
+  
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(356, 80%, 46%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-black: #000000;
   --clr-white: #fff;
+  --clr-orange-1: #ff7112;
+  --clr-orange-2: #FF3D12;
   --clr-white-transparency-8: rgba(255, 255, 255, 0.8);
   --ff-primary:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   
