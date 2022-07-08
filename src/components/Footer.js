@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
+import ButtonFooter from '../components/atoms/Button-twitter-footer'
 
 const Footer = () => {
   return (
@@ -19,7 +20,10 @@ const Footer = () => {
           layout="fullWidth"
           className="logo"
         />
-        <p>Buttons on footer</p>
+        <div>
+          <ButtonFooter title="Twitter" />
+          <ButtonFooter title="mirror.xyz" />
+        </div>
         <p className="copy">© {new Date().getFullYear()} NovumLabs.com</p>
       </div>
     </Wrapper>

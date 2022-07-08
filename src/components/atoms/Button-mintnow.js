@@ -53,10 +53,10 @@ const Wrapper = styled.div`
     }
   }
   .shape {
-    margin-left: -1rem;
-    width: 5rem;
+    margin-left: -0.5rem;
+    width: 6rem;
     height: 6.4rem;
     background: var(--clr-orange-1);
-    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+    clip-path: polygon(40% 0%, 100% 0%, 60% 100%, 0% 100%);
   }
 `
