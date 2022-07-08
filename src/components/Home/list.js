@@ -8,7 +8,7 @@ const List = () => {
       {cards.map((item) => {
         return (
           <div key={item.id} className="card">
-            <div>{item.image}</div>
+            <div className="image">{item.image}</div>
             <h2>{item.title}</h2>
             <p>{item.text1}</p>
             <p>{item.text2}</p>
@@ -28,7 +28,14 @@ const Wrapper = styled.div`
   .card {
     width: 40rem;
   }
+  .image {
+    border-bottom: 1.2rem solid var(--clr-orange-1);
+  }
+  h2 {
+    font-size: 4.8rem;
+    margin-top: 4rem;
+  }
   p {
-    color: #888888;
+    color: var(--clr-grey);
   }
 `

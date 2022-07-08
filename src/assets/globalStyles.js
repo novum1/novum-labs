@@ -18,7 +18,7 @@ Variables
   --clr-white: #fff;
   --clr-orange-1: #ff7112;
   --clr-orange-2: #FF3D12;
-  --clr-white-transparency-8: rgba(255, 255, 255, 0.8);
+  --clr-grey: #888888;
   --ff-primary:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   
   --ff-secondary: "Open Sans", sans-serif;
