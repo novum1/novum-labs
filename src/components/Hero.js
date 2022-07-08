@@ -31,6 +31,7 @@ export default Hero
 
 const Wrapper = styled.header`
   position: relative;
+
   .hero-img {
     width: 100%;
     height: 100%;
@@ -38,18 +39,18 @@ const Wrapper = styled.header`
 
   .top-logo {
     position: absolute;
-    top: 39px;
-    left: 42px;
-    width: 412px;
+    top: 3.9rem;
+    left: 4.2rem;
+    width: 41.2rem;
   }
   .top-button {
     position: absolute;
-    right: 64px;
-    top: 51px;
+    right: 6.4rem;
+    top: 5.1rem;
   }
   .bottom-left {
     position: absolute;
-    bottom: 116px;
-    left: 2px;
+    bottom: 11.6rem;
+    left: 0.5rem;
   }
 `

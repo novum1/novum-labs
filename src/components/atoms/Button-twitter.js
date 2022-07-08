@@ -7,15 +7,15 @@ const Button = ({ title }) => {
 
 export default Button
 const Wrapper = styled.button`
-  font-size: 16px;
-  padding: 2px 15px;
+  font-size: 1.6rem;
+  padding: 0.2rem 1.5rem;
   color: var(--clr-black);
   background: var(--clr-orange-1);
   clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  height: 25px;
+  height: 2.5rem;
   transition: var(--transition);
 
   :hover {

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import device from './device'
 
 const GlobalStyle = createGlobalStyle`
 
@@ -45,19 +46,44 @@ Global Styles
   box-sizing: border-box;
 }
 
+html {
+   /* This defines what 1rem is */
+  font-size: 22.5%; 
+
+  @media ${device.mobileL} {
+      font-size: 35%; 
+  }
+  @media ${device.tablet} {
+    font-size: 41.25%; 
+  }
+  @media ${device.laptop} {
+      font-size: 47.5%; 
+  }
+  @media ${device.laptopL} {
+      font-size: 53.75%; 
+  }
+  @media ${device.desktop} {
+      font-size: 62.5%; /* 1 rem = 10px; 10px/16px = 62.5% */
+  }
+}
+
 body {
   font-family: var(--ff-primary);
   background-color: var(--clr-black);
   color: #fff;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 2.4rem;
   
 }
 
 p {
-  margin-bottom: 24px;
-  
-  font-size: 24px;
+  margin-bottom: 2.4rem;  
+}
+
+.section {
+  width: 90vw;
+  max-width: 128rem;
+  margin: 0 auto 4rem;
 }
 
 `

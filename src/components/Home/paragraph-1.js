@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Paragraph = () => {
   return (
-    <Wrapper>
+    <Wrapper className="section">
       <p>
         Once his eyes had grown used to the sight, Wang could see that the faint
         red background was indeed pulsing. The entire sky flickered, as if the
@@ -19,7 +19,12 @@ const Paragraph = () => {
         presence that could never be understood by human intellect.
       </p>
 
-      <h1>Genesis Collection: Kingpin Compound.</h1>
+      <h2>
+        Genesis Collection:{' '}
+        <span className="subtitle">
+          Kingpin Compound.<span className="white-shape">--</span>
+        </span>
+      </h2>
 
       <p>
         Another sixty thousand Trisolaran hours went by. Twenty thousand
@@ -43,11 +48,20 @@ const Paragraph = () => {
 export default Paragraph
 
 const Wrapper = styled.div`
-  width: 1280px;
-  margin: 0 auto;
-
-  h1 {
+  h2 {
     text-align: center;
-    margin: 150px 0 100px;
+    margin: 15rem 0 10rem;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .subtitle {
+    background: var(--clr-orange-1);
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    padding: 1rem 1.5rem 1rem 2.5rem;
+  }
+  .white-shape {
+    background: var(--clr-white);
+    margin-left: 1rem;
+    clip-path: polygon(55% 0%, 100% 0%, 65% 70%, 20% 70%);
   }
 `

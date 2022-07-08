@@ -4,7 +4,7 @@ import cards from '../../constants/home-cards'
 
 const List = () => {
   return (
-    <Wrapper>
+    <Wrapper className="section">
       {cards.map((item) => {
         return (
           <div key={item.id} className="card">
@@ -22,13 +22,11 @@ const List = () => {
 export default List
 
 const Wrapper = styled.div`
-  max-width: 1280px;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 4rem;
   .card {
-    width: 400px;
+    width: 40rem;
   }
   p {
     color: #888888;

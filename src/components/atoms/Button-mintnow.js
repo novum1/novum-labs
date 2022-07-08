@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Button = ({ title }) => {
   return (
     <Wrapper>
-      <div className="button">{title}</div>
+      <button className="button">{title}</button>
       <div className="shape"></div>
     </Wrapper>
   )
@@ -12,21 +12,21 @@ const Button = ({ title }) => {
 
 export default Button
 
-const Wrapper = styled.button`
+const Wrapper = styled.div`
   position: relative;
   .button {
-    font-size: 32px;
-    padding: 10px;
+    font-size: 3.2rem;
+    padding: 1rem;
     position: absolute;
-    right: 45px;
+    right: 4.5rem;
     top: 0%;
     color: var(--clr-black);
     background: var(--clr-white);
     clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
     border: 1px solid var(--clr-black);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 246px;
-    height: 64px;
+    width: 24.6rem;
+    height: 6.4rem;
     transition: var(--transition);
 
     :hover {
@@ -42,8 +42,8 @@ const Wrapper = styled.button`
     position: absolute;
     right: 0;
     top: 0%;
-    width: 58px;
-    height: 64px;
+    width: 5.8rem;
+    height: 6.4rem;
     background: var(--clr-orange-1);
     clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
   }
