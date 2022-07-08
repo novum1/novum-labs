@@ -22,7 +22,7 @@ const Hero = ({ image, toggleComing, isOpen }) => {
       </div>
       <div className="bottom-left">
         <ButtonTwitter title="Twitter" />
-        <ButtonTwitter title="Mirror.xyz" />
+        <ButtonTwitter title="mirror.xyz" />
       </div>
     </Wrapper>
   )

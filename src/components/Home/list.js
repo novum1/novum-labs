@@ -33,7 +33,10 @@ const Wrapper = styled.div`
   }
   h2 {
     font-size: 4.8rem;
+    line-height: 4.8rem;
     margin-top: 4rem;
+    font-style: normal;
+    height: 12.4rem;
   }
   p {
     color: var(--clr-grey);

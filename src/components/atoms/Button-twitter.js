@@ -7,8 +7,10 @@ const Button = ({ title }) => {
 
 export default Button
 const Wrapper = styled.button`
+  font-family: 'Inter', normal;
   font-size: 1.6rem;
-  padding: 0.4rem 2rem;
+
+  padding: 3px 25px 4px;
   color: var(--clr-black);
   background: var(--clr-orange-1);
   clip-path: polygon(12% 0%, 100% 0%, 85% 100%, 0% 100%);

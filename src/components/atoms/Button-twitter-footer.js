@@ -26,8 +26,9 @@ const Wrapper = styled.button`
     width: 11.7rem;
     height: 2.8rem;
     font-size: 1.6rem;
-    font-weight: 400;
-    padding-top: 0.5rem;
+
+    font-family: 'Inter', normal;
+    padding-top: 0.3rem;
     text-align: center;
     background: var(--clr-black);
     clip-path: polygon(12% 0%, 99% 0%, 85% 100%, 0% 100%);

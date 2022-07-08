@@ -3,6 +3,8 @@ import device from './device'
 
 const GlobalStyle = createGlobalStyle`
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
+
 /*
 =============== 
 Variables
@@ -15,8 +17,9 @@ Variables
   --clr-orange-2: #FF3D12;
   --clr-grey: #888888;
   --clr-grey-2: #A5A5A5;
-  --ff-primary:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --ff-primary:  "Arial", normal;
+  --ff-secondary: 'Bebas Neue', cursive;
+  
   --transition: all 0.3s linear;
   --spacing: 0.2rem;
   --radius: 0.25rem;
@@ -74,6 +77,10 @@ body {
   
 }
 
+h1,
+h2,
+h3,
+h4 {font-family: var(--ff-secondary); font-weight: 400;}
 p {
   margin-bottom: 2.4rem;  
 }

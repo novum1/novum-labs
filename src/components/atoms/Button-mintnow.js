@@ -47,9 +47,11 @@ const Wrapper = styled.div`
     width: 23.8rem;
     height: 5.6rem;
     text-align: center;
+    font-family: var(--ff-secondary);
+    font-weight: 400;
     font-size: 3.2rem;
     line-height: 3.4rem;
-    padding: 1rem;
+    padding-top: 1.6rem;
     color: var(--clr-black);
     background: var(--clr-white);
     clip-path: polygon(10% 0%, 99% 0%, 90% 100%, 1% 100%);

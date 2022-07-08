@@ -51,8 +51,10 @@ const Wrapper = styled.div`
   h2 {
     text-align: center;
     margin: 15rem 0 10rem;
+    font-family: var(--font-primary);
     font-size: 4rem;
     font-weight: 700;
+    line-height: 4.6rem;
   }
   .subtitle {
     background: var(--clr-orange-1);

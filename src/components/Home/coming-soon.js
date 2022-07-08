@@ -25,6 +25,9 @@ const Wrapper = styled.aside`
     display: flex;
     place-items: center;
     justify-content: center;
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 400;
   }
   .left {
     height: 17.4rem;
