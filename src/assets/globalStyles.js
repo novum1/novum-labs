@@ -9,18 +9,13 @@ Variables
 ===============
 */
 :root {
- 
-  
-  --clr-green-dark: hsl(125, 67%, 35%);
-  --clr-red-dark: hsl(356, 80%, 46%);
-  --clr-red-light: hsl(360, 71%, 66%);
   --clr-black: #000000;
   --clr-white: #fff;
   --clr-orange-1: #ff7112;
   --clr-orange-2: #FF3D12;
   --clr-grey: #888888;
+  --clr-grey-2: #A5A5A5;
   --ff-primary:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.2rem;
@@ -65,12 +60,15 @@ html {
   @media ${device.desktop} {
       font-size: 62.5%; /* 1 rem = 10px; 10px/16px = 62.5% */
   }
+  @media ${device.desktopL} {
+      font-size: 100%; 
+  }
 }
 
 body {
   font-family: var(--ff-primary);
   background-color: var(--clr-black);
-  color: #fff;
+  color: var(--clr-white);
   line-height: 1.5;
   font-size: 2.4rem;
   
