@@ -5,7 +5,8 @@ import LogoWhite from '../components/atoms/logo-white1'
 import ButtonMintNow from '../components/atoms/Button-mintnow'
 import ButtonTwitter from '../components/atoms/Button-twitter'
 
-const Hero = ({ image }) => {
+const Hero = ({ image, toggleComing, isOpen }) => {
+  console.log({ isOpen })
   return (
     <Wrapper>
       <GatsbyImage
@@ -17,7 +18,7 @@ const Hero = ({ image }) => {
       />
       <div className="top-logo">{LogoWhite}</div>
       <div className="top-button">
-        <ButtonMintNow title="Mint Now" />
+        <ButtonMintNow title="Mint Now" toggle={toggleComing} />
       </div>
       <div className="bottom-left">
         <ButtonTwitter title="Twitter" />

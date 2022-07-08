@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyles />
+
       <div>{children}</div>
       <Footer />
     </>

@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Button = ({ title }) => {
+const Button = ({ title, toggle }) => {
   return (
-    <Wrapper>
+    <Wrapper onClick={toggle}>
       <div className="btn-container">
         <div className="btn">{title}</div>
       </div>
@@ -16,6 +16,21 @@ export default Button
 
 const Wrapper = styled.div`
   display: flex;
+  :hover {
+    cursor: pointer;
+    .btn-container {
+      background: var(--clr-orange-1);
+    }
+    .btn {
+      color: var(--clr-white);
+      background: var(--clr-orange-1);
+    }
+  }
+  :active {
+    .btn-container {
+      background: var(--clr-white);
+    }
+  }
 
   .btn-container {
     position: relative;
@@ -24,13 +39,6 @@ const Wrapper = styled.div`
     height: 6.4rem;
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
     transition: var(--transition);
-    :hover {
-      background: var(--clr-orange-1);
-      cursor: pointer;
-    }
-    :active {
-      background: var(--clr-white);
-    }
   }
   .btn {
     position: absolute;
@@ -46,11 +54,6 @@ const Wrapper = styled.div`
     background: var(--clr-white);
     clip-path: polygon(10% 0%, 99% 0%, 90% 100%, 1% 100%);
     transition: var(--transition);
-
-    :hover {
-      color: var(--clr-white);
-      background: var(--clr-orange-1);
-    }
   }
   .shape {
     margin-left: -0.5rem;
