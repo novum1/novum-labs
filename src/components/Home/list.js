@@ -35,7 +35,6 @@ const Wrapper = styled.div`
     font-size: 4.8rem;
     line-height: 4.8rem;
     margin-top: 4rem;
-    font-style: normal;
     height: 12.4rem;
   }
   p {

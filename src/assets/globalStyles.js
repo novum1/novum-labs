@@ -1,9 +1,25 @@
 import { createGlobalStyle } from 'styled-components'
 import device from './device'
-
+import fBebas from './fonts/BebasNeue Regular.ttf'
+import fInter from './fonts/Inter Regular.ttf'
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
+/*
+============
+Fonts
+============
+*/
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue'),
+         url('${fBebas}') format('truetype');
+}
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+         url('${fInter}') format('truetype');
+}
+
 
 /*
 =============== 
@@ -18,7 +34,7 @@ Variables
   --clr-grey: #888888;
   --clr-grey-2: #A5A5A5;
   --ff-primary:  "Arial", normal;
-  --ff-secondary: 'Bebas Neue', cursive;
+  --ff-secondary: 'Bebas Neue';
   
   --transition: all 0.3s linear;
   --spacing: 0.2rem;

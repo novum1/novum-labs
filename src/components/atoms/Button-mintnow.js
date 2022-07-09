@@ -47,8 +47,8 @@ const Wrapper = styled.div`
     width: 23.8rem;
     height: 5.6rem;
     text-align: center;
-    font-family: var(--ff-secondary);
-    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+
     font-size: 3.2rem;
     line-height: 3.4rem;
     padding-top: 1.6rem;
