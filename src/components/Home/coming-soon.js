@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FaTimes } from 'react-icons/fa'
 
-const Coming = ({ isOpen }) => {
+const Coming = ({ isOpen, toggle }) => {
   return (
     <Wrapper>
       <div className={isOpen ? 'coming show' : 'coming'}>
+        <button className="close-btn" type="button" onClick={toggle}>
+          <FaTimes />
+        </button>
         <div className="left"></div>
         <h1>Coming Soon</h1>
         <div className="right"></div>
@@ -61,5 +65,16 @@ const Wrapper = styled.aside`
   .show {
     opacity: 1;
     transform: translateX(0);
+  }
+
+  .close-btn {
+    position: absolute;
+    right: 4.75%;
+    top: 2.75%;
+    font-size: 4rem;
+    background: transparent;
+    border-color: transparent;
+    color: var(--clr-red-dark);
+    cursor: pointer;
   }
 `

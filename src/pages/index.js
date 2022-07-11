@@ -9,12 +9,11 @@ import Coming from '../components/Home/coming-soon'
 const Index = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false)
   const toggleComing = () => {
-    console.log('clickeado')
     setIsOpen(!isOpen)
   }
   return (
     <Layout>
-      <Coming isOpen={isOpen} toggleComing={toggleComing} />
+      <Coming isOpen={isOpen} toggle={toggleComing} />
       <Hero
         image={data.image.childImageSharp}
         toggleComing={toggleComing}

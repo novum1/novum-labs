@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import device from './device'
 import fBebas from './fonts/BebasNeue Regular.ttf'
+import fBebasBold from './fonts/BebasNeue Bold.ttf'
 import fInter from './fonts/Inter Regular.ttf'
 const GlobalStyle = createGlobalStyle`
 
@@ -13,6 +14,11 @@ Fonts
     font-family: 'Bebas Neue';
     src: local('Bebas Neue'),
          url('${fBebas}') format('truetype');
+}
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: local('Bebas Neue Bold'),
+         url('${fBebasBold}') format('truetype');
 }
 @font-face {
     font-family: 'Inter';
@@ -33,6 +39,7 @@ Variables
   --clr-orange-2: #FF3D12;
   --clr-grey: #888888;
   --clr-grey-2: #A5A5A5;
+  --clr-red-dark: hsl(356, 80%, 46%);
   --ff-primary:  "Arial", normal;
   --ff-secondary: 'Bebas Neue';
   

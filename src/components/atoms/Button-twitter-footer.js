@@ -1,15 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Button = ({ title }) => {
+const Button = ({ title, link }) => {
   return (
-    <Wrapper>
+    <Wrapper
+      onClick={() => {
+        window.location.href = link
+      }}
+    >
       <div className="btn">{title}</div>
     </Wrapper>
   )
 }
 
 export default Button
+
 const Wrapper = styled.button`
   position: relative;
   width: 12rem;

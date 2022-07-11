@@ -21,8 +21,8 @@ const Hero = ({ image, toggleComing, isOpen }) => {
         <ButtonMintNow title="Mint Now" toggle={toggleComing} />
       </div>
       <div className="bottom-left">
-        <ButtonTwitter title="Twitter" />
-        <ButtonTwitter title="mirror.xyz" />
+        <ButtonTwitter title="twitter" link="https://twitter.com/novum_labs" />
+        <ButtonTwitter title="medium" link="https://medium.com/@novumlabs" />
       </div>
     </Wrapper>
   )

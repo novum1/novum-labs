@@ -21,8 +21,8 @@ const Footer = () => {
           className="logo"
         />
         <div>
-          <ButtonFooter title="Twitter" />
-          <ButtonFooter title="mirror.xyz" />
+          <ButtonFooter title="twitter" link="https://twitter.com/novum_labs" />
+          <ButtonFooter title="medium" link="https://medium.com/@novumlabs" />
         </div>
         <p className="copy">© {new Date().getFullYear()} NovumLabs.com</p>
       </div>
