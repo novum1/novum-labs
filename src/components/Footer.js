@@ -1,7 +1,6 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
-import ButtonFooter from '../components/atoms/Button-twitter-footer'
 
 const Footer = () => {
   return (
@@ -20,11 +19,10 @@ const Footer = () => {
           layout="fullWidth"
           className="logo"
         />
-        <div>
-          <ButtonFooter title="twitter" link="https://twitter.com/novum_labs" />
-          <ButtonFooter title="medium" link="https://medium.com/@novumlabs" />
-        </div>
-        <p className="copy">© {new Date().getFullYear()} NovumLabs.com</p>
+        <p>
+          created by: <a href="https://twitter.com/jiigsaw01">@jiigsaw01</a>
+        </p>
+        <p className="copy">© {new Date().getFullYear()} NovumLabs.xyz</p>
       </div>
     </Wrapper>
   )
@@ -34,6 +32,8 @@ export default Footer
 
 const Wrapper = styled.footer`
   position: relative;
+  color: var(--clr-grey-2);
+  font-size: 2rem;
 
   .hero-img {
     width: 100%;
@@ -53,8 +53,13 @@ const Wrapper = styled.footer`
     width: 27.8rem;
     height: 6rem;
   }
-  .copy {
+
+  a {
     color: var(--clr-grey-2);
-    font-size: 2rem;
+    transition: var(--transition);
+    text-decoration: none;
+    :hover {
+      color: var(--clr-white);
+    }
   }
 `
