@@ -21,8 +21,12 @@
 
 2.  **Implementation of the skeleton prototype.**
 
-    In this part I will implement all the graphic elements of the site so that it looks and works correctly.
+    In this part I will implement all the graphic elements of the site so that it looks and works correctly. Done.
 
 3.  **Finalizing the project**
 
     In this phase we will correct all the errors and adjustments will be made so that the site works as you want.
+
+4. **Hosted on netlify**
+
+    We can see a working site on https://novum-labs.netlify.app
