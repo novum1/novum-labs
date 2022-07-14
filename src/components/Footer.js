@@ -12,17 +12,18 @@ const Footer = () => {
         layout="fullWidth"
       />
       <div className="hero-container">
-        <StaticImage
+        {/* <StaticImage
           src="../assets/images/novum-labs_2hite-2.png"
           alt="Novum Labs"
           title="Novum Labs"
           layout="fullWidth"
           className="logo"
-        />
+        /> */}
         <p>
           created by: <a href="https://twitter.com/jiigsaw01">@jiigsaw01</a>
         </p>
-        <p className="copy">© {new Date().getFullYear()} NovumLabs.xyz</p>
+        <p />
+        <p className="copy">© {new Date().getFullYear()} Novum Labs</p>
       </div>
     </Wrapper>
   )
