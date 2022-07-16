@@ -60,7 +60,7 @@ const data = [
         layout="fullWidth"
       />
     ),
-    title: 'Trisolaris: The Listener',
+    title: 'Walking in the Moon',
     text1:
       'Wang realized that the disk did not emit light. It only reflected the light from the real sun, which was on the other side of the sky, below the horizon. What had risen wasn’t a sun at all, but a giant moon. ',
     text2:
