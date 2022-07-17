@@ -4,6 +4,36 @@ import styled from 'styled-components'
 const Paragraph = () => {
   return (
     <Wrapper className="section">
+    <p>
+    <b>2034:</b> Natural disasters and nuclear war made Earth uninhabitable.
+    </p>
+    
+    <p>
+    Citizens of all nations had no choice but to escape to the Metaverse to seek better lives.
+    </p>
+    
+    <p>
+    At first, life returned to normal: a thriving economy and peace amongst the masses.
+    </p>
+    
+    <p>However, things began to change. The same mistakes that doomed the physical world repeated themselves in the digital world.</p>
+    
+<p>A totalitarian regime took control and imposed draconian restrictions, enslaving the masses.</p>
+
+    <p>But all was not lost. A small but fearsome coalition of leaders from business, 
+    technology, and military forged an enterprise in retaliation against the oppression.</p>
+
+    <h3>Novum Labs was born.</h3>
+    
+    <p>It would provide resources to arm the resistance and give them the tools they needed to defend themselves against these tyrants.</p>
+    
+<p>Novum created a decentralized system of factories, laboratories, and training facilities that produced digital commodities and new forms of technology that gave citizens the equipment and intelligence needed to survive.</p>
+    
+<p>Hidden in the shadows, the leadership’s identities and whereabouts are known to no one. But that hasn’t stopped the warlords from tirelessly hunting them for decades.</p>
+<p>Despite mortal threats, they continue to distribute these resources through a network of elite fighters and revolutionaries throughout the world.</p>
+
+
+    
       <p>
         Once his eyes had grown used to the sight, Wang could see that the faint
         red background was indeed pulsing. The entire sky flickered, as if the
