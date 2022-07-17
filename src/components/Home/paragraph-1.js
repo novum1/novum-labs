@@ -104,7 +104,7 @@ const Wrapper = styled.div`
   }
   .scroll-text {
     height: 100%;
-    animation: slideUp linear 55s infinite;
+    animation: slideUp ease-in-out 55s infinite;
   }
   @keyframes slideUp {
     0% {
