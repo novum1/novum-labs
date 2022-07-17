@@ -6,7 +6,7 @@ const data = [
     id: 1,
     image: (
       <StaticImage
-        src="../assets/images/novum-labs-head.png"
+        src="../assets/images/RTFKT_WALLS.jpg"
         alt="Novum Labs"
         title="Novum Labs"
         layout="fullWidth"
