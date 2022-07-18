@@ -22,7 +22,7 @@ const data = [
     id: 2,
     image: (
       <StaticImage
-        src="../assets/images/novum-labs-head.png"
+        src="../assets/images/Novum Labs-08-06.jpg"
         alt="Novum Labs"
         title="Novum Labs"
         layout="fullWidth"
@@ -38,7 +38,7 @@ const data = [
     id: 3,
     image: (
       <StaticImage
-        src="../assets/images/novum-labs-head.png"
+        src="../assets/images/Novum Labs-08-06.jpg"
         alt="Novum Labs"
         title="Novum Labs"
         layout="fullWidth"
@@ -54,7 +54,7 @@ const data = [
     id: 4,
     image: (
       <StaticImage
-        src="../assets/images/novum-labs-head.png"
+        src="../assets/images/Novum Labs-08-06.jpg"
         alt="Novum Labs"
         title="Novum Labs"
         layout="fullWidth"

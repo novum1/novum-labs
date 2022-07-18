@@ -29,7 +29,7 @@ export default Index
 
 export const query = graphql`
   query {
-    image: file(relativePath: { eq: "novum-labs-head.png" }) {
+    image: file(relativePath: { eq: "Novum Labs-08-06.jpg" }) {
       childImageSharp {
         gatsbyImageData
       }
